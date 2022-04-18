@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "name": "Ola Wealth Advisor",
+            "image_url": "https://dp76jxyzopnbo.cloudfront.net/wealthng/images/ola-image.png",
+            "description": "Personal Wealth Advisor chat bot with wealth.ng on its backend",
+            "access_url": "https://wa.me/2349044448652?text=hi"
+        },
+        {
+            "name": "GCODE Generator (Alpha)",
+            "image_url": "https://getbootstrap.com/docs/5.1/examples/features/unsplash-photo-1.jpg",
+            "description": "Generates GCODE for testing ASTM D638 Tensile testing samples",
+            "access_url": "https://github.com/collinsikechukwu10/ASTM-D638-GCode-Generator"
+        },
+        {
+            "name": "Bertillon Fingerprint API",
+            "image_url": "https://getbootstrap.com/docs/5.1/examples/features/unsplash-photo-1.jpg",
+            "description": "API system for detecting fingerprint from video stream",
+            "access_url": "https://github.com/BertillonGit/FingerAPI"
+        },
+        {
+            "name": "Parts Of Speech Tagging Algorithms",
+            "image_url": "https://universaldependencies.org/logos/logo-ud.png",
+            "description": "Analysis System to experimenting with Universal Dependencies Treebank datasets using different POS tagging algorithms",
+            "access_url": "https://github.com/collinsikechukwu10/POSTagging-Algorithms"
+        },
+        {
+            "name": "Minesweeper Agent using Logic Programming",
+            "image_url": "https://via.placeholder.com/300.png/09f/fff",
+            "description": "Uses logic programming with simple strategies to traverse a minesweeper world",
+            "access_url": "https://github.com/collinsikechukwu10/Minesweeper-With-Logic-Programming"
+        },
+        {
+            "name": "Probablistic Inference of Security Attacks using Bayesian Networks",
+            "image_url": "https://via.placeholder.com/300.png/09f/fff",
+            "description": "Uses bayesian networks to model security attack scenarios",
+            "access_url": "https://github.com/collinsikechukwu10/Uncertainty-In-Bayesian-Networks-for-Security"
+        }
+
+
+        
+    ],
+    "skills": {
+        "modules": [],
+        "libraries": [
+            "django",
+            "flask",
+            "tensorflow",
+            "keras",
+            "expressJS",
+            "scikit-learn",
+            "matplotlib",
+            "pandas",
+            "numpy",
+            "VueJS",
+            "spring-framework",
+            "nltk"
+        ]
+    },
+    "maxNoSkillsPerRow": 3,
+    "maxNoProjectsPerRow": 3,
+    "wordCloudLink": "https://worditout.com/word-cloud/create",
+    
+}
