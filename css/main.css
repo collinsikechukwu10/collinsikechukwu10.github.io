@@ -408,8 +408,7 @@ textarea {
     padding: 48px 48px 16px 48px !important;
     color: white !important;
     height: 100%;
-        /* text-shadow: ; */
-        z-index: 2;
+    z-index: 10000;
 }
 
 .project-info.project-title {
