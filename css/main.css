@@ -29,6 +29,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     background-color: snow;
+    font-size: 15px;
 }
 
 .navbar .navbar-title {
@@ -45,16 +46,20 @@ body {
 .navbar a,
 navbar-toggler {
     color: goldenrod;
-    font-weight: lighter
+    /* font-weight: lighter */
+    font-weight: bold
 }
 
 .navbar a.active {
-    font-weight: bold;
+    color: grey;
+    animation: pulsate 2s ease-in;
+    /* border-bottom: solid 3px goldenrod */
 }
 
 .navbar a:hover {
-    color: grey;
+    /* color: grey; */
     border-bottom: solid 3px goldenrod
+    
 }
 
 .site-header {
@@ -100,14 +105,14 @@ navbar-toggler {
     display: inline-block;
     align-self: flex-end;
     inline-size: 100%;
-    font-size: 20px;
+    font-size: 27px;
     animation: fade-in-bottom 0.5s ease-in-out both;
     
 
 }
 .rectangle div span{
     margin-left: 2rem;
-    font-size: 60px;
+    font-size: 47px;
     font-weight: 900;
     animation: fade-in-bottom 0.5s ease-in-out both;
     font-stretch: ultra-condensed;
@@ -140,7 +145,7 @@ navbar-toggler {
     font-weight: 600;
     text-decoration: none;
     display: inline;
-    color: black;
+    color: goldenrod;
     opacity: 1;
     padding: 10px 0;
     margin-right: 1.5rem;
@@ -155,12 +160,15 @@ navbar-toggler {
 #contactme-section .contact-avenues a:hover {
     animation: pulsate 1s ease-in-out;
 }
+.skill-section-platforms-frameworks .skills-col:hover{
+    animation: pulsate 2s ease-in;
 
+}
 @keyframes pulsate{
     0%{
         text-shadow: 
-        0 0 50px goldenrod,
-        0 0 100px black;
+        0 0 50px black,
+        0 0 100px white;
     }
 }
 
@@ -378,7 +386,7 @@ textarea {
 }
 
 .project:hover {
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 .project-info {
@@ -418,7 +426,7 @@ textarea {
 }
 
 .project-info .project-link:hover {
-    font-size: 18px;
+    animation: pulsate 1s ease-in-out;
 }
 
 
