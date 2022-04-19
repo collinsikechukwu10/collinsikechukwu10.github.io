@@ -6,6 +6,7 @@
 body {
     color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    z-index: 0;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -375,27 +376,40 @@ textarea {
 
 
 .project {
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     background-color: black !important;
     height: 310px;
     border-radius: 15px !important;
     overflow: hidden;
     color: white !important;
+    z-index:1;
 }
 
-.project:hover {
-    /* opacity: 0.8; */
-}
 
+.project img{
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    opacity: 0.6;
+    width:100%;
+    height: 100%;
+    transition: transform 0.5s;
+    z-index: 1;
+}
+.project:hover img{
+    transform: scale(1.15);
+    opacity: 0.3;
+}
 .project-info {
     display: flex !important;
     flex-direction: column !important;
     padding: 48px 48px 16px 48px !important;
     color: white !important;
-    height: 100%
+    height: 100%;
         /* text-shadow: ; */
+        z-index: 2;
 }
 
 .project-info.project-title {

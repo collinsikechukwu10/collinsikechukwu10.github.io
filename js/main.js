@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     // Collapse Navbar
     var navbarCollapse = function () {
-      if ($("#navigation-bar").offset().top > 100) {
+      if ($("#navigation-bar").offset().top > 180) {
         $("#navigation-bar").addClass("navbar-shrink");
       } else {
         $("#navigation-bar").removeClass("navbar-shrink");
