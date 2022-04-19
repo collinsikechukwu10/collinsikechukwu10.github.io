@@ -60,5 +60,6 @@
     "maxNoSkillsPerRow": 3,
     "maxNoProjectsPerRow": 3,
     "wordCloudLink": "https://worditout.com/word-cloud/create",
+    "particlsJsSite": "https://vincentgarreau.com/particles.js/"
     
 }
