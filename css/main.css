@@ -555,9 +555,22 @@ textarea {
     margin: 15px 0;
     border-radius: 6px;
     align-self: center;
-    width: 90vw;
+    width: 70vw;
     z-index: 100;
 }
+@media only screen and (max-width: 1024px) {
+    /* For mobile phones: */
+    .timeline__event {
+      width: 85vw;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .timeline__event {
+      width: 95vw;
+    }
+  }
 
 .timeline__info {
     display: flex;
@@ -583,7 +596,7 @@ textarea {
 .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
     content: "";
     width: 2px;
-    height: 100%;
+    height: 150%;
     background: #ddbe6f;
     position: absolute;
     top: 0%;
@@ -667,7 +680,7 @@ textarea {
 .timeline__event__icon:before {
     content: "";
     width: 2px;
-    height: 100%;
+    height: 150%;
     background: #ddbe6f;
     position: absolute;
     top: 0%;
