@@ -36,30 +36,14 @@
             "description": "Uses bayesian networks to model security attack scenarios",
             "access_url": "https://github.com/collinsikechukwu10/Uncertainty-In-Bayesian-Networks-for-Security"
         }
-
-
-        
     ],
     "skills": {
-        "modules": [],
-        "libraries": [
-            "django",
-            "flask",
-            "tensorflow",
-            "keras",
-            "expressJS",
-            "scikit-learn",
-            "matplotlib",
-            "pandas",
-            "numpy",
-            "VueJS",
-            "spring-framework",
-            "nltk"
-        ]
+        "libraries": 
+            "django,flask,tensorflow,keras,expressJS,scikit-learn,matplotlib,pandas,numpy,VueJS,spring-framework, nltk, d3.js, plotly.js,  scipy, seaborn,     conllu,     axios, streamlit,    fastapi,     pydantic,    opencv,"
+        
     },
-    "maxNoSkillsPerRow": 3,
-    "maxNoProjectsPerRow": 3,
     "wordCloudLink": "https://worditout.com/word-cloud/create",
-    "particlsJsSite": "https://vincentgarreau.com/particles.js/"
-    
+    "particlsJsSite": "https://vincentgarreau.com/particles.js/",
+    "word cloud color range": "#2f97d7 (BLUE) to #daa520 (gold)",
+    "unused Words":"Machine learning, Probablistic Inference"
 }
