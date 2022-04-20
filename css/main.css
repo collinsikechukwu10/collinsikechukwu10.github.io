@@ -42,6 +42,12 @@ body {
 
 .navbar-toggler {
     color: goldenrod;
+    font-size: 2.4rem !important;
+    border: solid 1px goldenrod !important;
+    transition: transform 0.75s ease-in-out;
+}
+.navbar-toggler:hover{
+    transform: scale(1.1);
 }
 
 .navbar a {
@@ -58,11 +64,13 @@ body {
 .navbar a:hover {
     /* color: grey; */
     border-bottom: solid 3px goldenrod;
-    color:goldenrod;
+    color: goldenrod;
 }
-.navbar a:focus{
-    color:goldenrod;
+
+.navbar a:focus {
+    color: goldenrod;
 }
+
 .site-header {
     height: 100vh;
     padding: 0px;
@@ -111,7 +119,7 @@ body {
 }
 
 .rectangle div span {
-    font-size: 47px;
+    font-size: 40px;
     font-weight: 900;
     animation: fade-in-bottom 0.5s ease-in-out both;
     font-stretch: ultra-condensed;
@@ -371,6 +379,7 @@ textarea {
     background: rgba(218, 165, 32, 0.5);
     line-height: 45px;
     font-size: 20px;
+    z-index: 1000;
 }
 
 
@@ -558,19 +567,67 @@ textarea {
     width: 70vw;
     z-index: 100;
 }
+
 @media only screen and (max-width: 1024px) {
+
     /* For mobile phones: */
     .timeline__event {
-      width: 85vw;
+        width: 85vw;
     }
-  }
+}
 
 @media only screen and (max-width: 768px) {
+    .rectangle div span{
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
     /* For mobile phones: */
     .timeline__event {
-      width: 95vw;
+        width: 95vw;
     }
-  }
+
+    .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
+        height: 200%;
+    }
+
+    .timeline__event__icon:before {
+        height: 200%;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+    .timeline__event__date {
+        font-size: 1.1rem !important;
+    }
+    .timeline__event {
+        width: 98vw;
+        max-height: 300px;
+    }
+    .timeline__event__content {
+        width: 98vw;
+        overflow: auto;
+    }
+
+    .timeline__event__title {
+        font-size: 1rem;
+    }
+
+    .timeline__event__description {
+        font-size: 0.8rem;
+    }
+
+    .timeline__event__description .h4 {
+        font-size: 1rem;
+    }
+    .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
+        height: 250%;
+    }
+
+    .timeline__event__icon:before {
+        height: 250%;
+    }
+}
 
 .timeline__info {
     display: flex;
