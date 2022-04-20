@@ -41,6 +41,20 @@ numpy
 VueJS
 spring-framework
 nltk
+d3.js
+plotly.js
+scipy
+seaborn
+conllu
+axios
+streamlit
+fastapi
+pydantic
+opencv
+
+
+COLOR_RANGE: #2f97d7 (BLUE) to #daa520 (gold)
+
 
 
 
