@@ -57,7 +57,8 @@ body {
 
 .navbar a:hover {
     /* color: grey; */
-    border-bottom: solid 3px goldenrod
+    border-bottom: solid 3px goldenrod;
+    color:goldenrod;
 }
 
 .site-header {
