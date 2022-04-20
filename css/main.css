@@ -88,8 +88,7 @@ body {
 }
 
 .rectangle div {
-    /* align-self: center; */
-    /* display: flex; */
+
     margin: 0;
     position: absolute;
     top: 50%;
@@ -101,8 +100,7 @@ body {
 
 .rectangle div p {
     font-weight: 200;
-    /* padding: 0 15px; */
-    /* margin-left: 2rem; */
+
     display: inline-block;
     align-self: flex-end;
     inline-size: 100%;
@@ -113,7 +111,6 @@ body {
 }
 
 .rectangle div span {
-    /* margin-left: 2rem; */
     font-size: 47px;
     font-weight: 900;
     animation: fade-in-bottom 0.5s ease-in-out both;
@@ -276,7 +273,6 @@ textarea {
 .social-buttons a {
     color: goldenrod;
     font-size: 45px;
-    /* background-color: goldenrod; */
     border-radius: 50%;
     height: auto;
     width: auto;
@@ -333,7 +329,6 @@ textarea {
 }
 
 #skill-section-libraries {
-    /* border: solid 2px goldenrod; */
     padding: 3rem 0;
 
 }
@@ -479,10 +474,6 @@ textarea {
 .project-footer a:hover {
     color: rgb(47, 151, 215);
     border: solid 1px rgb(47, 151, 215);
-
-    /* border: solid 3px goldenrod; */
-    /* font-weight: bold; */
-    /* color: rgb(218, 165, 32); */
 }
 
 
@@ -546,11 +537,10 @@ textarea {
     border-radius: 10px;
     padding: 5px;
     display: inline;
-    /* width:100% */
 }
 
 
-/* NEW TIMELINE  */
+/* TIMELINE CSS  */
 
 .timeline {
     display: flex;
