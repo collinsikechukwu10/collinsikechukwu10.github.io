@@ -109,6 +109,10 @@ $(document).ready(function () {
       
     });
 
+    $(".project").on("click",function(){
+      window.location = $(this).attr("link")
+    })
+
   })(jQuery); // End of use strict
 }
 )
